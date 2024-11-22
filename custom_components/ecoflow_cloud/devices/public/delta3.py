@@ -1,5 +1,5 @@
 from .data_bridge import to_plain
-from ..internal.delta3 import Delta3 as InternalDelta3
+from ..internal.delta2 import Delta3 as InternalDelta3
 from ...api import EcoflowApiClient
 from ...sensor import StatusSensorEntity
 
